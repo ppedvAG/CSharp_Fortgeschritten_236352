@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitasking", "Multitasking\Multitasking.csproj", "{99B0A3FD-ABF9-4694-B36C-D7F67C3FDD11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{2E0729C4-E803-4DAF-9B40-F62E29AA9D0E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,10 +63,6 @@ Global
 		{99B0A3FD-ABF9-4694-B36C-D7F67C3FDD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99B0A3FD-ABF9-4694-B36C-D7F67C3FDD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99B0A3FD-ABF9-4694-B36C-D7F67C3FDD11}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E0729C4-E803-4DAF-9B40-F62E29AA9D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E0729C4-E803-4DAF-9B40-F62E29AA9D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E0729C4-E803-4DAF-9B40-F62E29AA9D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E0729C4-E803-4DAF-9B40-F62E29AA9D0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
