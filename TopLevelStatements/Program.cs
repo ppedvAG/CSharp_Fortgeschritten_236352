@@ -1,18 +1,9 @@
-﻿using System.Collections.Concurrent;
+﻿Task test = Test();
+Console.WriteLine("TEST");
+await test;
 
-Console.WriteLine(args);
 
-public class ConcurrentHashSet<T>
+async Task Test()
 {
-	private readonly ConcurrentDictionary<T, object> dict = new();
-
-	public void Add(T obj)
-	{
-		dict.TryAdd(obj, null);
-	}
-
-	public bool Contains(T obj)
-	{
-		return dict.ContainsKey(obj);
-	}
+	await Task.Delay(1000);
 }
